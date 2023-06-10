@@ -35,6 +35,7 @@ margin: 0 auto;
 padding: 4em;
 font-size: 18px;
 text-align: center;
+color: #396E94;
 text-decoration-color: #FFFF00;
 }
 img {
@@ -44,10 +45,11 @@ margin: 0 auto;
 h1, h2, h3, h4, h5, h6 {
 font-family: var(--heading-font);
 color: var(--headline-color-on-white);
+text-decoration-color: #FFFF00;
 }
 h2 {
 text-align: center;
-color: #FFFF00;
+color: #A43312;
 }
 hr {
 height: 3px;
