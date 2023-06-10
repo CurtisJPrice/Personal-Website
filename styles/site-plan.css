@@ -69,10 +69,15 @@ main {
   background-color: var(--paragraph-background-color);
   }
 
+main h2 {
+color: #FFFF00;
+}
+
 p {
 font-family: var(--paragraph-font);
 color: var(--paragraph-color-on-white);
 padding: 1em;
+color: #ffff00;
 }
 .colors {
 width: 100%;
