@@ -67,6 +67,11 @@ color: var(--headline-color-on-color);
 }
 
 
+.Home-grid {
+color: #396E94;
+}
+
+
 p {
 font-family: var(--paragraph-font);
 color: var(--paragraph-color-on-white);
