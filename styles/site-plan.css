@@ -67,6 +67,7 @@ main {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  text-decoration-color: var(--accent1-color)
   }
 
 
