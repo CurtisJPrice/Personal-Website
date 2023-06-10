@@ -23,7 +23,7 @@ Fonts are separated by a | */
 --nav-link-color: #396E94;
 --nav-background-color: #A43312;
 --nav-hover-link-color: #A43312;
---nav-hover-background-color: #ffffff;
+--nav-hover-background-color: #ffff00;
 }
 
 
@@ -45,7 +45,7 @@ margin: 0 auto;
 h1, h2, h3, h4, h5, h6 {
 font-family: var(--heading-font);
 color: var(--headline-color-on-white);
-text-decoration-color: #FFFF00;
+text-decoration-color: #396E94;
 }
 h2 {
 text-align: center;
