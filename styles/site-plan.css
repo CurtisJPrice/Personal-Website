@@ -37,6 +37,7 @@ padding: 4em;
 font-size: 18px;
 text-align: center;
 color: #396E94;
+text-emphasis-color: var(--headline-color-on-white);
 text-decoration-color: #A43312;
 }
 img {
