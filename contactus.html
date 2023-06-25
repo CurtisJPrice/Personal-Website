@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Vacations | Dry Oar Boating</title>
+    <link type="text/css" rel="stylesheet" href="styles/site-plan.css">
+    <link rel="stylesheet" href="styles/site-plan.css">
+    <style></style>
+</head>
+<body>
+<header>
+    <a id="logo_link" href="page-2.html">
+        <img class="logo" src="Park journeys-logos_transparent.png" alt="Park Journeys Logo">
+    </a>
+    <nav>
+        <a href="index-homepage.html">Home</a>
+        <a href="page-2.html">Rafting</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+</header>
+<div id="hero">
+    <section id="hero-msg">
+        <h1 class="home-title">Contact Forms</h1>
+        <img id="hero-img" src="images/Park-juorneys.jpg" alt="Park Journeys">
+    </section>
+</div>
+<main>
+<div id="feedback">
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</div>
+<form action="/my-handling-form-page" method="post">
+    <ul>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" />
+        </li>
+        <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <li class="button">
+            <button type="submit">Send your message</button>
+        </li>
+
+        ...
+    </ul>
+</form>
+</main>
+<footer>
+<p>Contact us Here!</p>
+<p><a href="site-plan-rafting.html">Site Plan</a></p>
+    <p><a href="contactus.html">Contact Us</a></p>
+    <div class="social">
+    <height 50%>
+    <width 50%>
+        <a href="https://facebook.com">
+            <img src="images/Facebook_Logo_(2019).png" alt="images/Facebook_Logo_(2019).png">
+            <link src="https://www.facebook.com/facebook/">
+            <img width: 40px;></img width:>
+            <padding-top: 10px;></padding-top:>
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/673524.png" alt="twitter icon">
+            <link src="https://twitter.com/">
+            <img width: 40px;></img width:>
+            <padding-top: 10px;></padding-top:>
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/Instagram_icon.png.webp" alt="instagram icon">
+            <link src="https://www.instagram.com/">
+            <img width: 40px;></img width:>
+            <padding-top: 10px;></padding-top:>
+    </height>
+    </width>
+        </a>
+    </div>
+    
+</footer>
+</body>
+</html>
