@@ -16,28 +16,14 @@
     </a>
     <nav>
         <a href="homepage.html">Home</a>
-        <a href="page-2.html">Parks and Historical Markers</a>
-        <a href="page-3.html">Possible trails and tourist sites</a>
+        <a href="page-2.html">Events</a>
+        <a href="page-3.html">Admin</a>
     </nav>
 </header>
 <main>
 <div id="feedback">
     <script>
-        // get the feedback div element so we can do something with it.
-        const feedbackElement = document.getElementById('feedback');
-        // get the form so we can read what was entered in it.
-        const formElement = document.forms[0];
-        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-        formElement.addEventListener('submit', function(e) {
-            // stop the form from doing the default action.
-            e.preventDefault();
-            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-            // make the feedback element visible.
-            feedbackElement.style.display = "block";
-            // add a class to move everything down so our message doesn't cover it.
-            document.body.classList.toggle('moveDown');
-        });
+        
     </script>
 </div>
 <form action="/my-handling-form-page" method="post">
@@ -51,11 +37,11 @@
             <input type="email" id="mail" name="user_email" />
         </li>
         <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
+            <label for="Password">Password:</label>
+            <input type="text" id="Password" name="user_password" />
         </li>
         <li class="button">
-            <button type="submit">Send your message</button>
+            <button type="submit">Sign In!</button>
         </li>
 
         ...
@@ -64,21 +50,7 @@
 </main>
 <footer>
     <div class="social">
-        <a href="https://facebook.com">
-            <img src="images/Facebook_Logo_(2019).png" alt="images/Facebook_Logo_(2019).png" height="15%" width="15%">
-            <link src="https://www.facebook.com/facebook/">
-            <padding-top: 10px;></padding-top:>
-        </a>
-        <a href="https://twitter.com">
-            <img src="images/673524.png" alt="twitter icon" height="15%" width="15%">
-            <link src="https://twitter.com/">
-            <padding-top: 10px;></padding-top:>
-        </a>
-        <a href="https://instagram.com">
-            <img src="images/Instagram_icon.png.webp" alt="instagram icon" height="15%" width="15%">
-            <link src="https://www.instagram.com/">
-            <padding-top: 10px;></padding-top:>
-        </a>
+        
     </div>
     
 </footer>
